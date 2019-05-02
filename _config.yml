@@ -12,7 +12,7 @@ github_repo: "https://github.com/RickTomson/ricktomson.github.io" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Let the intuition and insight run wild."
-sidebar-avatar: /img/avatar_g      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar_g.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
