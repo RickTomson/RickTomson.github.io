@@ -7,7 +7,7 @@ description: "Just have fun!"
 keyword: "RickTomson, Rick Blog, Rick的博客 "
 url: "http://ricktomson.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-# github_repo: "https://github.com/RickTomson/ricktomson.github.io/" # you code repository
+github_repo: "https://github.com/RickTomson/ricktomson.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -78,7 +78,7 @@ gitalk:
 
 # Google Analytics
 ga_track_id: 'UA-139426765-1'            # Format: UA-xxxxxx-xx
-ga_domain:ricktomson.github.io           # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain:ricktomson.auto           # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
