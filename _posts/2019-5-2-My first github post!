@@ -1,16 +1,16 @@
 ---
-layout: post
-title: First Try
-subtitle: tryyyyyyyyyyyyy
-date: 2019-5-2
-author: rick.T
-header-img: img/post-bg-2015.jpg
+layout:     post
+title:      second try
+subtitle:   still tryyyyyyyy
+date:       2019-05-02
+author:     rickt
+header-img: img/post-bg-kuaidi.jpg
 catalog: true
-tags：
-- blog
+tags:
+    - blog
 ---
 
->试一下看看能不能显示
+##前言言言
 
-#教程上貌似有前言，我也来
+教程上貌似有前言，我也来
 okk
