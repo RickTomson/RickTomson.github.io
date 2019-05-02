@@ -6,7 +6,8 @@ date: 2019-5-2
 author: rick.T
 header-img: img/post-bg-2015.jpg
 catalog: true
-
+tags：
+- blog
 ---
 
 >试一下看看能不能显示
