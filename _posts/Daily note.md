@@ -1,4 +1,12 @@
-Daily note
+---
+layout: post
+title: Daily note
+subtitle: ...flag
+date: \today
+author: Rick.T
+header-img: img/post-bg-universe.jpg
+catalog: true
+---
 
 3.10
 
