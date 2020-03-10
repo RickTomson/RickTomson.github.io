@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Daily note
-subtitle: ...flag
-date: \today
+subtitle: -v-
+date: 2020.3.10
 author: Rick.T
 header-img: img/post-bg-universe.jpg
 catalog: true
