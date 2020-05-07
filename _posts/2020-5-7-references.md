@@ -38,6 +38,10 @@ David tong 2018 gauge theory
 
 M. Göckeler, T. Schücker 1989 Differential Geometry, Gauge Theories and Gravity 披着gr皮的gauge theory，其中有关于从gauge theory角度写gr的故事
 
+Nieuwenhuizen 2008 lectures on instantons
+
+David Tong 2005 TASI Lectures on Solitons
+
 ### cft
 
 M. Schottenloher 2008 A Mathematical Introduction to Conformal Field Theory-Springer 条理还挺清晰的数学角度
