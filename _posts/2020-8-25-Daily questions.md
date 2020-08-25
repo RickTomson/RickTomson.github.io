@@ -15,3 +15,5 @@ catalog: true
 https://physics.stackexchange.com/questions/88773/operator-state-correspondence-in-qft
 
 star: https://mathoverflow.net/questions/16584/about-state-field-correspondence
+
+感觉我感兴趣的解决问题的方向可能是VOA。。
