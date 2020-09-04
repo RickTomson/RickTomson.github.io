@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Daily questions
+tags: 1.02137
 subtitle: Problems of state-operator correspondence
 date: 2020.9.1
 author: Rick.T
