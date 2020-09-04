@@ -2,7 +2,7 @@
 layout: post
 title: Daily questions
 subtitle: Problems of state-operator correspondence
-date: 2020.8.4
+date: 2020.9.1
 author: Rick.T
 header-img: img/post-bg-universe.jpg
 catalog: true
