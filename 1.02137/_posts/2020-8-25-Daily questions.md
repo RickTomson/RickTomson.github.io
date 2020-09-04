@@ -1,5 +1,6 @@
 ---
 layout: post
+category: 1.02137
 title: Daily questions
 subtitle: Problems of state-operator correspondence
 date: 2020.9.1
