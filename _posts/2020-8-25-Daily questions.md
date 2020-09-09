@@ -25,3 +25,49 @@ star: https://mathoverflow.net/questions/16584/about-state-field-correspondence
 1.tqft为什么是从Bord_n \rightarrow Vect_n的functor？（这里面和tensor product的结构有关）还有我们常说的分类是指什么？（我个人认为是tqft的分类，即有许多的partition functions，一个partition fuction代表了一个tqft，然后partition functions是可以被分类的）
 
 2.量子场对应的是自由度，那么在流形上某一点处的量子场是否就是我们考虑的那一点的Hilbert space呢？
+
+9.9
+
+1.The quantization (or canonical quantization) of tqft? This motivates us to study algebra structure of tqft.
+
+2.今天仍然困惑于correlation functions(or n-point functions)，参考了几个stackexchange，e.g. two-point function
+
+$$
+<\phi(x)\phi(y)>
+$$
+
+in some (wrong) sense, we can interpret it as the probability amplititude of a particle propagate from point x to point y. However, it is wrong because if we integral it, we will find the probability will divergence. But if the probability is 1, then we can say that interpretation happens to be right. We can treat it as amplititude or transition amplititude indeed, because it is just the inner product of two states. 
+
+There are other treatments.
+
+We can use path integral to calculate it and get following formula:
+
+$$
+\langle\mathcal{O}\rangle=\frac{1}{Z} \int \mathcal{D} \Phi \mathcal{O} \mathrm{e}^{-S_E \Phi}
+$$
+
+then we replace $\mathcal{O}$ as $\phi(x)\phi(y)$, however, we should prove latter is hermitian.. With gauge symmetry, we get ward identity. (I am doubt with this symmetry and invariant of expectation value)
+
+Another thing is scatting amplititude, where we consider interaction in QFT, however I know nothing about it..
+
+
+
+$$
+\langle \mathcal{U_a}\mathcal{U_b}\rangle=
+$$
+
+
+
+
+
+为什么在wightman qft中，只需要有n-point functions就可以了
+
+
+
+propagator? should the propagator satisfies probability = 1?
+
+
+
+为什么没人疑惑$\phi(x)$不是哪个的generator？
+
+
