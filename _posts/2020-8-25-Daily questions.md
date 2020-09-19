@@ -4,11 +4,17 @@ title: Daily questions
 tags: 
  - 1.02137
 subtitle: Problems of state-operator correspondence
-date: 2020.9.1
+date: 2020.9.13
 author: Rick.T
 header-img: img/post-bg-universe.jpg
 catalog: true
 ---
+
+8.4
+
+1.我们凭什么要求H=\frac{p^2}{2m}+V在量子力学中仍然成立，i.e.，为什么作为算符这种关系仍然满足？
+
+或许我们应该去看H和p实际上指什么，H和p其实是时空平移生成元，因此在考虑经典时空时，其有上述对应的结构。
 
 8.25
 
@@ -50,23 +56,13 @@ then we replace $\mathcal{O}$ as $\phi(x)\phi(y)$, however, we should prove latt
 
 Another thing is scatting amplititude, where we consider interaction in QFT, however I know nothing about it..
 
-
-
 $$
 \langle \mathcal{U_a}\mathcal{U_b}\rangle=
 $$
 
-
-
-
-
 为什么在wightman qft中，只需要有n-point functions就可以了
 
-
-
 propagator? should the propagator satisfies probability = 1?
-
-
 
 为什么没人疑惑$\phi(x)$不是哪个的generator？
 
