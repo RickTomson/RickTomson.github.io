@@ -59,3 +59,11 @@ reference: Turaev 2010 Quantum invariants of knots and 3-manifolds
 "一个quantum model可以与一个classical statistic model用wick rotation联系起来。"
 
 这样的话能不能把CFT（看作statistic model然后和tqft联系起来）
+
+---
+
+what is the central charge? why do we always consider it in 2+1 case?
+
+refer: witten THE CENTRAL CHARGE IN THREE DIMENSIONS
+
+
