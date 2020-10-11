@@ -1,8 +1,8 @@
 ---
 layout: post
 tags: 
--conclusion
--tqft
+- conclusion
+- tqft
 title: Conclusion of 10.1
 subtitle: 
 date: 2020.10.1
