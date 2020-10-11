@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Daily questions
+title: Daily questions and thoughts
 tags: 
  - 1.02137
-subtitle: Problems of state-operator correspondence
+subtitle: 
 date: 2020.9.13
 author: Rick.T
 header-img: img/post-bg-universe.jpg
@@ -66,4 +66,10 @@ propagator? should the propagator satisfies probability = 1?
 
 为什么没人疑惑$\phi(x)$不是哪个的generator？
 
+9.20
 
+从QFT出发，n-point correlation functions can be given by generating functions, then if we consider CFT, what are the generating functions of n-point correlation functions in CFT?
+
+9.23
+
+in QFT, we always have many kinds of quantum fields, such as scalar field, spinor field, etc. We know those fields represent freedoms (both spin and usual freedoms) and will be corresponding to describing specific particles, thus they have same freedoms (the exact meaning may be rep of lie alg) with particles, we ask what are particles of gauge fields (we can see gauge fields as quantum fields)? Gauge bosons? And does it limit the rep of gauge group?
