@@ -1,11 +1,12 @@
 ---
 layout: post
 tags: 
-- conclusion
-- tqft
+ - conclusion
+ - tqft
+ - learning process
 title: Conclusion of 10.1
 subtitle: 
-date: 2020.10.1
+date: 2020.10.7
 author: Rick.T
 header-img: img/post-bg-universe.jpg
 catalog: true

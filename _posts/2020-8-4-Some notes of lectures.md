@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
- - 1.02137
+ - learning process
 title: Some notes of lectures
 subtitle: Topological Orders and Higher Structures
 date: 2020.8.4

@@ -1,12 +1,13 @@
 ---
 layout: post
 tags: 
-- jc
-- tqft
-- topological order
+ - jc
+ - tqft
+ - topological order
+ - learning process
 title: JC Levin wen model
 subtitle: 
-date: 2020.10.1
+date: 2020.10.11
 author: Rick.T
 header-img: img/post-bg-universe.jpg
 catalog: true
@@ -65,5 +66,3 @@ reference: Turaev 2010 Quantum invariants of knots and 3-manifolds
 what is the central charge? why do we always consider it in 2+1 case?
 
 refer: witten THE CENTRAL CHARGE IN THREE DIMENSIONS
-
-

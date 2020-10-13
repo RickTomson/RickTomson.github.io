@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
- - 1.02137
+ - topological order
 title: Daily note
 subtitle: -v-
 date: 2020.3.10
