@@ -1,7 +1,5 @@
 ---
 layout: post
-tags: 
- - 0.98137
 title: My first blog!
 subtitle: Real · FB
 date: 2019-5-2
