@@ -13,6 +13,8 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 ---
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'], inlineMath: [['$','$']] } }); </script>
+
 7.20
 
 今天突然想起来个问题，为啥我们想要研究cft呢？
