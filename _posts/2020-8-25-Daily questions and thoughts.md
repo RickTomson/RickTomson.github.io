@@ -7,7 +7,7 @@ tags:
  - conclusion
  - tqft
 subtitle: 
-date: 2020.9.13
+date: 2020.10.13
 author: Rick.T
 header-img: img/post-bg-universe.jpg
 catalog: true
@@ -99,19 +99,13 @@ finite group algebra的定义
 
 2.jacob identiry
 
-
-
 generator，algebra，group algebra和group间的关系
-
-
 
 9.29
 
 量子力学是没有背景的，真正的物理需要有背景（时空）.
 
 e.g.很容易看到，在经典量子力学中，考虑一个operator动量p的时候，我们从未考虑过其随空间位置x怎么变化，而只能有其在time evolution中怎么样，因此这是没有背景的理论。
-
-
 
 10.9
 
@@ -121,11 +115,13 @@ something about 拓扑简并
 另外就是取热力学极限是将希尔伯特空间的张量维度（感觉这个维度和普通意义上的维度不同）推向infinite，还有有种把lattice model变成continuous model的感觉。
 在tqft里，我们给cobordism安上一个希尔伯特空间，在这里是给一个lattice model安上一个希尔伯特空间，感觉本质上是一致的。
 
-
-
 10.12
 
 1.表示和同态的关系
+
+Exactly，表示就是同态，投影表示只不过是homomorphism up to a central term，应该能想到，表示要干的事就是保持群的乘法结构，因此其自然就是同态，这个定义是well-defined。从category来说，表示可以看成两个范畴间的functor（比如从群到表示空间），而同态就是表示之间的natural transformation。
+
+In a rather general form, we therefore have a **representation** of a category C in a category D is simply a [functor](https://ncatlab.org/nlab/show/functor)  F:C→D. Similarly, an [homomorphism](https://ncatlab.org/nlab/show/homomorphism) between representations (“[intertwiner](https://ncatlab.org/nlab/show/intertwiner)”) is simply a [natural transformation](https://ncatlab.org/nlab/show/natural+transformation) between functors when they are being thought of as representations. Thus we have a [category of representations](https://ncatlab.org/nlab/show/category+of+representations).
 
 2.我们说对称性的话只关注于时间平移（或者说与Hamilton对易），考虑到energy momentum tensor和计算守恒量时也是只有在时间演化下是守恒的，因此这种对称性是相当不完善的（但是貌似我们也只能关心时间上的守恒量）。我们可以extend symmetry and to consider followings:
 
@@ -139,4 +135,25 @@ iii.homeomorphism
 
 感觉tqft也是个bootstrap的方法，就是从构造homeomorphism invariant出发（问题在于tqft给出了怎样的field和quantum state），然后再有lagrangian等。但是仔细想想好像还不太一样，cft中有各种各样的fields，呃，它的field是怎么给出的呢？记不清楚了。。
 
+3.老生常谈的cft中lack lagrangian description是啥？
 
+10.13
+
+1.不依赖于basis的tensor product定义（在category里的定义）是什么？
+
+2.将tensor product space reduce to direct sum space
+
+3.之前的一套理论是有一个complete commute set $\{A,B,C...\}$的话，我们可以写出对应的tensor product space，这个space是将不同的Hilbert space tensor起来的，分别对应了相应的data，然后对这个整个的space，我们可以用$|a,b,c,...>$来表示其中一个vector，这里$|a,b,c,...>\equiv|a>\otimes|b>\otimes|c>\otimes...$，其中$a,b,c,...$代表了相应的data，或者说量子数。简并的意思就是我们信息太少，只能看到$|a>$的情况，因此我们需要更多的信息和其他态来label简并态。这里的一点小问题就是，我们知道不在一个Hilbert space一定commute (e.g. $A\otimes I$and $I\otimes B$一定是commute的)，但是commute是否一定能写成上述形式呢？很明显不一定，比如$\left(\begin{matrix} A & 0 \\ 0 & I \end{matrix}\right)$与$\left(\begin{matrix} I & 0 \\ 0 & B \end{matrix}\right)$，在都表示成矩阵时，这里是direct sum，显然与上面的情况不同，而且似乎将上述所有情况都替换成$\oplus$也成立。。（其实不成立，因为这样的话各个态之间没有分立的关系了，refer to the difference of tensor product & cartesian product）但是怎么解释呢？还有许多情况下人们都喜欢reduce到direct sum space里，联系是什么呢？
+
+4.我喜欢的一种general的对称性的expression，$\mathcal{L}_X Y=0$，$X$是单参微分同胚群无穷小变换的所对应的vector，$Y$是任一物理量，这样我们就可以说$Y$具有某种某种连续对称性 (e.g. $Y\equiv g_{\mu\nu}$, $Y\equiv L$, $Y\equiv \Phi$)，这个体现了数学简洁的特点，但是需要注意的是，这里我们还未将discrete symmetry纳入，以及quantum symmetry中一些特有的性质，比如说投影表示，中心扩张等。
+
+5.某种意义上讲，gauge transformation就是coordinate transformation，其都对应了structure group，不同的地方在于，在principal bundle上叫gauge transformation，在tangent vector bundle（或其他？）上叫coordinate transformation，总之就是section之间的微分同胚。。（不太准确，spirit到了）
+
+10.16
+
+1.cs theory note大体思路
+
+chern simons theory从trivial bundle出发，类比yangmills action给出一个F wedge F定义在B（with boundary的mfd）上的的不变量，然后我们去看他的boundary，发现在boundary上是cs action，接着我们想对所有的bundle都定义类似结构，因此去找其universal bundle，构建了一个在closed mfd上的action，再然后是把mfd要求放宽，因此我们让B为n chain，然后其boundary是closed mfd的并，这样我们就对一些mfd定义了cs action。
+我还考虑了cs action的物理意义，会发现求其el eqn，是Bianchi identity，因此什么都不会贡献，但是其能够给出partition function，每个Z对应的是一个场论，对每个配边都有一个量子态，而分类其实就描述了量子态的类别。还有一个问题，其对Z的贡献的物理意义是什么？correlation function怎么求？
+
+2.还想学NLσM

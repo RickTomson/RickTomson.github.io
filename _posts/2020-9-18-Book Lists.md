@@ -34,6 +34,8 @@ John Milnor, James D. Stasheff - Characteristic Classes. (AM-76)-Princeton Unive
 
 hatcher 2017 vector bundle and k theory 后面还有示性类的部分
 
+Timothy Gowers, June Barrow-Green, Imre Leader - The Princeton Companion to Mathematics-Princeton University Press (2008) 普林斯顿的数学指南，可以做词典
+
 ---
 
 joseph 2017 Memories of a Theoretical Physicist 讲述一个物理学家和场论的故事
@@ -42,6 +44,22 @@ Francesco 1994 2D Gravity and Random Matrices（据说是量子引力圣经）
 
 ---
 
+SOLITONS AND INSTANTONS
+
+
+
+### TQFT
+
+Trieste 1992 Lectures on topology gauge theory and yang-mills theory 9305120  chern simons 的参考
+
 Abdalla.el 2001 Non-Perturbative Methods in 2 Dimensional Quantum Field Theory 该书非常厚，nonlinear σ模型等都有涉及
 
-SOLITONS AND INSTANTONS
+Joachim Kock 2004 Frobenius algebras and 2D topological quantum field theories
+
+Turaev 2010 Quantum invariants of knots and 3-manifolds
+
+labastida 1997 Lectures on Topological Quantum Field Theory 9709192
+
+Kishore B. Marathe, Giovanni Martucci 1992 The Mathematical Foundations of Gauge Theories-North-Holland
+
+gtm52
