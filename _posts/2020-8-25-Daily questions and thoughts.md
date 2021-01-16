@@ -174,8 +174,8 @@ $$
 
 $$
 \begin{pmatrix}
-A & 0 \\\\
-0 & I
+A & 0 \\
+0 & I \\
 \end{pmatrix}
 $$
 
