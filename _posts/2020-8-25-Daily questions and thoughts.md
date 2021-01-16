@@ -167,7 +167,7 @@ $$
 来表示其中一个vector，这里
 
 $$
-|a,b,c,...\rangle\equiv|a\rangle\otimes|b\rangle\otimes|c\rangle\otimes...
+|a,b,c,...\rangle\equiv|a\rangle\otimes|b\rangle\otimes|c\rangle\otimes blablabla
 $$
 
 其中$a,b,c,...$代表了相应的data，或者说量子数。而简并的意思就是我们信息太少，只能看到$|a\rangle$的情况，因此我们需要更多的信息和其他态来label简并态。这里的一点小问题就是，我们知道不在一个Hilbert space一定commute (比如$A\otimes I$and $I\otimes B$一定是commute的)，但是commute是否一定能写成上述形式呢？很明显不一定，比如
