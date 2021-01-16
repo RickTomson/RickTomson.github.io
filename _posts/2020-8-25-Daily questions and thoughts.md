@@ -13,34 +13,6 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 ---
 
----
-
-<script type="text/x-mathjax-config">
-
-  MathJax.Hub.Config({
-
-    extensions: ["tex2jax.js"],
-
-    jax: ["input/TeX", "output/HTML-CSS"],
-
-    tex2jax: {
-
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-
-      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-
-      processEscapes: true
-
-    },
-
-    "HTML-CSS": { availableFonts: ["TeX"] }
-
-  });
-
-</script>
-
----
-
 7.20
 
 今天突然想起来个问题，为啥我们想要研究cft呢？
@@ -235,9 +207,3 @@ chern simons theory从trivial bundle出发，类比yangmills action给出一个F
 4.ising model是gap的，然后看Hamiltonian像是取离散变量的qft，那么gapless的系统取连续的变量，又有点像qft了。。。（不过这个大体是胡扯了，因为还举得特殊的ising model的例子，还不知道ising model有没有nontrivial topological的性质，因此没啥保证）虽然听说那里是有cft，但是cft的处理方式可能也不算量子场论了
 
 5.想看bpz，moore-seiberg他们的cft，想知道nontrivial的想法是啥
-
-
-
-
-
-
