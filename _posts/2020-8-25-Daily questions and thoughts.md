@@ -36,9 +36,9 @@ loose掉isometric symmetry然后让他变成conformal symmetry，突然有种距
 
 8.4
 
-1.我们凭什么要求H=\frac{p^2}{2m}+V在量子力学中仍然成立，i.e.，为什么作为算符这种关系仍然满足？
+1.我们凭什么要求$H=\frac{p^2}{2m}+V$在量子力学中仍然成立，i.e.，为什么作为算符这种关系仍然满足？
 
-或许我们应该去看H和p实际上指什么，H和p其实是时空平移生成元，因此在考虑经典时空时，其有上述对应的结构。
+或许我们应该去看$H$和$p$实际上指什么，$H$和$p$其实是时空平移生成元，因此在考虑经典时空时，其有上述对应的结构。
 
 2.fusion竟然是一个把tensor product变成direct sum的操作，震惊，需要缓一缓想想这两者的区别。还有想问在做fusion的时候应该有什么规则呢？
 
@@ -67,7 +67,7 @@ star: https://mathoverflow.net/questions/16584/about-state-field-correspondence
 2.今天仍然困惑于correlation functions(or n-point functions)，参考了几个stackexchange，e.g. two-point function
 
 $$
-<\phi(x)\phi(y)>
+\langle\phi(x)\phi(y)\rangle
 $$
 
 in some (wrong) sense, we can interpret it as the probability amplititude of a particle propagate from point x to point y. However, it is wrong because if we integral it, we will find the probability will divergence. But if the probability is 1, then we can say that interpretation happens to be right. We can treat it as amplititude or transition amplititude indeed, because it is just the inner product of two states. 
@@ -158,27 +158,23 @@ iii.homeomorphism
 
 2.将tensor product space reduce to direct sum space
 
-3.之前的一套理论是有一个complete commute set $A,B,C...$的话，我们可以写出对应的tensor product space，这个space是将不同的Hilbert space tensor起来的，分别对应了相应的data，然后对这个整个的space，我们可以用
+3.之前的一套理论是有一个complete commute set $\{A,B,C...\}$的话，我们可以写出对应的tensor product space，这个space是将不同的Hilbert space tensor起来的，分别对应了相应的data，然后对这个整个的space，我们可以用
 
 $$
-|a,b,c,...>
+|a,b,c,...\rangle
 $$
 
 来表示其中一个vector，这里
 
 $$
-|a,b,c,...>\equiv|a>\otimes|b>\otimes|c>\otimes...
+|a,b,c,...\rangle\equiv|a\rangle\otimes|b\rangle\otimes|c\rangle\otimes...
 $$
 
-，其中$a,b,c,...$代表了相应的data，或者说量子数。简并的意思就是我们信息太少，只能看到|a>的情况，因此我们需要更多的信息和其他态来label简并态。这里的一点小问题就是，我们知道不在一个Hilbert space一定commute (e.g. $A\otimes I$and $I\otimes B$一定是commute的)，但是commute是否一定能写成上述形式呢？很明显不一定，比如
+，其中$a,b,c,...$代表了相应的data，或者说量子数。简并的意思就是我们信息太少，只能看到$|a\rangle$的情况，因此我们需要更多的信息和其他态来label简并态。这里的一点小问题就是，我们知道不在一个Hilbert space一定commute (e.g. $A\otimes I$and $I\otimes B$一定是commute的)，但是commute是否一定能写成上述形式呢？很明显不一定，比如
 
-$$
-\left(\begin{matrix} A & 0 \\ 0 & I \end{matrix}\right)
-$$
+\\(\left(\begin{matrix} A & 0 \ 0 & I \end{matrix}\right)\\)
 
-$$
-\left(\begin{matrix} I & 0 \\ 0 & B \end{matrix}\right)
-$$
+\[\left(\begin{matrix} I & 0 \ 0 & B \end{matrix}\right)\]
 
 ，在都表示成矩阵时，这里是direct sum，显然与上面的情况不同，而且似乎将上述所有情况都替换成$\oplus$也成立。。（其实不成立，因为这样的话各个态之间没有分立的关系了，refer to the difference of tensor product & cartesian product）但是怎么解释呢？还有许多情况下人们都喜欢reduce到direct sum space里，联系是什么呢？
 
