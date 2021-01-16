@@ -172,11 +172,15 @@ $$
 
 ，其中$a,b,c,...$代表了相应的data，或者说量子数。简并的意思就是我们信息太少，只能看到$|a\rangle$的情况，因此我们需要更多的信息和其他态来label简并态。这里的一点小问题就是，我们知道不在一个Hilbert space一定commute (e.g. $A\otimes I$and $I\otimes B$一定是commute的)，但是commute是否一定能写成上述形式呢？很明显不一定，比如
 
-\\(\left(\begin{matrix} A & 0 \ 0 & I \end{matrix}\right)\\)
+$$
+\begin{pmatrix} A & 0 \\ 0 & I \end{pmatrix}
+$$
 
-\[\left(\begin{matrix} I & 0 \ 0 & B \end{matrix}\right)\]
+$$
+\begin{pmatrix} I & 0 \\ 0 & B \end{pmatrix}
+$$
 
-，在都表示成矩阵时，这里是direct sum，显然与上面的情况不同，而且似乎将上述所有情况都替换成$\oplus$也成立。。（其实不成立，因为这样的话各个态之间没有分立的关系了，refer to the difference of tensor product & cartesian product）但是怎么解释呢？还有许多情况下人们都喜欢reduce到direct sum space里，联系是什么呢？
+在都表示成矩阵时，这里是direct sum，显然与上面的情况不同，而且似乎将上述所有情况都替换成$\oplus$也成立。。（其实不成立，因为这样的话各个态之间没有分立的关系了，refer to the difference of tensor product & cartesian product）但是怎么解释呢？还有许多情况下人们都喜欢reduce到direct sum space里，联系是什么呢？
 
 4.我喜欢的一种general的对称性的expression，$\mathcal{L}_X Y=0$，$X$是单参微分同胚群无穷小变换的所对应的vector，$Y$是任一物理量，这样我们就可以说$Y$具有某种某种连续对称性 (e.g. $Y\equiv g_{\mu\nu}$, $Y\equiv L$, $Y\equiv \Phi$)，这个体现了数学简洁的特点，但是需要注意的是，这里我们还未将discrete symmetry纳入，以及quantum symmetry中一些特有的性质，比如说投影表示，中心扩张等。
 
