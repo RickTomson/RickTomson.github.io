@@ -231,6 +231,13 @@ chern simons theory从trivial bundle出发，类比yangmills action给出一个F
 
 5.想看bpz，moore-seiberg他们的cft，想知道nontrivial的想法是啥
 
+6.感觉逻辑是这样的，我们用tqft等non-perturbative的方法去做interaction是因为interaction的本质（在量子力学下）就是non-perturbative，以上主要反驳了interaction去哪里了，和这种trick只是强行把它变成一类然后变没了的观点。
+另外我认为从entanglement看interaction也是极好的，而且这种角度也许能够包含perturbative和non-perturbative的，在学习这个时，出现了tqft的强烈的既视感。tqft也很可能和其有关。
+
+2021.1.3
+
+之前想的一个问题，为什么对于SL(1,3)也可以有weyl algebra（即a dagger a），感觉不是很明白这个symmetry从哪里来的
+
 2021.1.9-16
 
 这周主要是想去了解一下CFT的history，然后大体把握其框架，为后续的学习做好准备，于是便开始直接读moonshine那本书的第四章，无奈前面铺垫有些多，因此耗费了不少时间，所幸其大部分观点与我一致（除了一些细节上的问题）。这本书是从string theory引入cft的，cft作为string theory的perturbation theory，可以从费曼图来看，我认为这点做的非常好，这给我们提供了充足的motivation，比起直接套用conformal symmetry of minkowski metric的手法要高明很多，当然我们也可以从d dimensional spacetime statistic field theory来理解（对应的qft是d+1 dimensional spacetime，因为很明显qft要比sft多一个time上的维度）。然而这也不可避免的引发了一些问题，主要来源于对string theory的不理解。比如，我们可以问
@@ -248,6 +255,12 @@ chern simons theory从trivial bundle出发，类比yangmills action给出一个F
 7. 回到最初的问题，我们为什么要把Hilbert space安在一个string(e.g. S^1)上，有什么特殊的motivation吗，并且通过这个我们能得到什么？
 
 除开这些问题，剩下的便是老生常谈的state operator correspondence，OPE，infinite dimensional lie algebra等等。但是如果想要理解那些问题的话，我们需要学习下string theory，或者一些数学比如modular form...
+
+2021.2.16
+
+如果说tqft是由entanglement造成的，那么在pure tqft中没有粒子，是如何产生entanglement的呢？那种代数是什么？Ads/CFT，如何将TQFT考虑进去？
+这里面我们对背景的要求到底有多少？
+相互作用==纠缠，更像是一种时空的纠缠，这种纠缠是什么？本质上是Hilbert space的事情
 
 2021.3. 25
 
