@@ -176,7 +176,6 @@ $$A\quad 0$$
 
 $$0\quad I$$
 
-
 和
 
 $$I\quad 0$$
@@ -231,3 +230,51 @@ chern simons theory从trivial bundle出发，类比yangmills action给出一个F
 4.ising model是gap的，然后看Hamiltonian像是取离散变量的qft，那么gapless的系统取连续的变量，又有点像qft了。。。（不过这个大体是胡扯了，因为还举得特殊的ising model的例子，还不知道ising model有没有nontrivial topological的性质，因此没啥保证）虽然听说那里是有cft，但是cft的处理方式可能也不算量子场论了
 
 5.想看bpz，moore-seiberg他们的cft，想知道nontrivial的想法是啥
+
+2021.1.9-16
+
+这周主要是想去了解一下CFT的history，然后大体把握其框架，为后续的学习做好准备，于是便开始直接读moonshine那本书的第四章，无奈前面铺垫有些多，因此耗费了不少时间，所幸其大部分观点与我一致（除了一些细节上的问题）。这本书是从string theory引入cft的，cft作为string theory的perturbation theory，可以从费曼图来看，我认为这点做的非常好，这给我们提供了充足的motivation，比起直接套用conformal symmetry of minkowski metric的手法要高明很多，当然我们也可以从d dimensional spacetime statistic field theory来理解（对应的qft是d+1 dimensional spacetime，因为很明显qft要比sft多一个time上的维度）。然而这也不可避免的引发了一些问题，主要来源于对string theory的不理解。比如，我们可以问
+
+2. string theory的nonperturbation theory是什么？
+
+3. 如果那个图只是string perturbation的话，如何把background放进来，如何描述gauge theory，如何在spacetime中描述string的运动？string上的点是什么？
+
+4. 如何解决复杂的相互作用？
+
+5. 为什么我们要让string theory有conformal symmetry？
+
+6. 我们可以用tqft来描述在any metric下的拓扑不变量，所以对于any spacetime都是有用的，但是cft中我们看的是Feynman diagram，因此我们无法得知其spacetime的信息或者我们需要给定一个(maybe standard)spacetime，而对于string theory，in general我们是想得到在any spacetime下的理论，这么比较似乎cft无法做到这样的事，但是这里还有非常tricky的地方，为什么Feynman diagram的拓扑性质matters？或者说为什么string的perturbation要有conformal这种性质？
+
+7. 回到最初的问题，我们为什么要把Hilbert space安在一个string(e.g. S^1)上，有什么特殊的motivation吗，并且通过这个我们能得到什么？
+
+除开这些问题，剩下的便是老生常谈的state operator correspondence，OPE，infinite dimensional lie algebra等等。但是如果想要理解那些问题的话，我们需要学习下string theory，或者一些数学比如modular form...
+
+2021.3. 25
+
+到现在也学了不少的tqft相关的东西，还是感觉有些古怪，总觉得缺少些什么，好像没有抓住某些重要的issues，我们可以给出如下几个问题：
+
+Question：我们original tqft是从cobordism category到vector space over C的functor，然而对于category来说，我们并不是很关心其上的object内的元素，而是关心object本身和morphism，因此我们不关心对应的vector space A中的元素，但是这里不免使人感到疑惑，A中的元素就是我们所谓的quantum state，不关心quantum state应当如何理解？考虑A作为代数时，我们不会关心代数中的元素吗？
+
+Argument：quantum state实际上是看不到的，我们能观测到的永远只有关联函数（关系）
+
+Question：如果我们只在object层面上的话，代数A上的multiplication和unit map应当如何work，另外，我们对于A需要知道哪些信息？（比如我隐约觉得需要知道dimension）这些信息又是如何获得的？
+
+Argument：代数上的morphism如何work这个问题实际上相当重要，我们应该更关心这个问题
+
+Question：很难想象在考虑A上的multiplication和unit map时我们没有物理的信息进入，就比如说我们在$A\otimes A\rightarrow A$中没有物理上entanglement的形式或者说interaction的形式
+
+Argument：有个不成熟的见解，我们对于action的选择实际上规定了这个TQFT的type，比如A这都是在仔细对这个TQFT分类前就已经给定的，也就是说我们可以考虑某个TQFT，比如一个chern simons，其interaction恰恰就是对应于我们的$Tr(\int\mathcal{F}\wedge\mathcal{F})$，那么这个会对应什么代数A呢？同时我们也需要natural transformation来定义不同的TQFT，从而完成分类的工作。我们还能看到，对于natural transformation的定义并不好，因为我们无法跨越不同dimension，因此我们无法定义诸如$Tr(\int\mathcal{F})$而是只能在boundary上定义(n-1)的东西$Tr(\int\mathcal{A}d\mathcal{A}+\frac{2}{3}\mathcal{A}^3)$（这某种意义上对应了cobordism中的object），因此我们需要更进一步定义extended TQFT使得cohomology long exact sequence进行下去。。但是elaborate structure又是什么东西？那个是diffeomorphism间的isomorphism间的isomorphism，也就是说我们在区分不同的TQFT时，我们可以考虑natural transformation间的morphism，以及natural transformation间的morphism间的morphism，可以看到这个分类和定义extended TQFT是independent的。
+
+Question：如果说有什么缺憾的话，就是想要explicitly算一下path integral。。还有为什么是Z(M)之后会给出一个vector space，从chern simons来看，这个vector space对应了什么？
+
+最后想讨论下如何natural的进入TQFT？
+
+根据我的理解，对理论做量子化就是assign一个Hilbert space上去，当我们有algebra的结构的时候（symmetry），这个Hilbert space是algebra的representation space。那么从最原始开始，我们的物理总是需要一个背景，即space-time，对于一些manifold with metric，很自然有local symmetry on it，即isometry group，那么我们就会自然的在“every” point上assign一个Hilbert space。然而我们发现metric这个东西不是那么真实的，所以我们需要一些真正的物理上的东西（即满足general diffential或者说topological invariant），这时候我们的symmetry和algebra就不再那么local，我们有了一些nonlocal的东西，而这些东西是从nonlocal的interaction中emerge出来的，这里很subtle，或许会改变我们对interaction的常规的认知，而且也需要更深入理解（或许从entanglement可以？）因此这时我们才真正在一个nonlocal topological object上考虑quantization的问题，这时候我们同样assign Hilbert space上去，但是却无法用简单的Cartesian product来描述（如同我们在local的地方做过的那样），我们需要category，而由于比起quantum state，morphism更重要，因此出于这些原因，category是必要的。接下来我们就需要将物理上的部分提取出来，抽象出TQFT explicit的axiom。
+
+Question：这里还有些困惑，lurie说给定Z(pt)=A，我们know everything。。
+
+Argument：实际上这里的point和我们说的point不同，这里的point实际上是一个bordism的boundary，而bordism上的trivial points我们同样是不关心的
+
+Question：我们应当如何construct类似于chern simons action的topological invariant的结构？可以从示性类中找，不过有没有universal的找法？
+
+
